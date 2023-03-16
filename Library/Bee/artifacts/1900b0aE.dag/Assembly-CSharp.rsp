@@ -412,6 +412,7 @@
 "Assets/Scripts/UI/Score.cs"
 "Assets/Scripts/Wall/Wall.cs"
 "Assets/Scripts/Wall/WallBottom.cs"
+"Assets/Wait.cs"
 -langversion:9.0
 
 /deterministic
