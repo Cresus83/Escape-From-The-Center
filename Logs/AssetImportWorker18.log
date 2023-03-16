@@ -15,7 +15,7 @@ C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 -logFile
 Logs/AssetImportWorker18.log
 -srvPort
-51094
+53655
 Successfully changed project path to: C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/annam/Documents/GitHub/Escape-From-The-Center
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24280] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 644706103 [EditorId] 644706103 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31752] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 4288178132 [EditorId] 4288178132 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24280] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 644706103 [EditorId] 644706103 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31752] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 4288178132 [EditorId] 4288178132 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,81 +67,81 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004511 seconds.
+Registered in 0.004724 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 75.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (550ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (409ms)
-			LoadAssemblies (54ms)
+		EndReloadAssembly (385ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (264ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
+				InitializePlatformSupportModulesInManaged (57ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006586 seconds.
+Registered in 0.005370 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (715ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
+			SetupTypeCache (296ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (313ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,12 +150,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3463 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (113.7 KB). Loaded Objects now: 3928.
-Memory consumption went from 120.2 MB to 120.1 MB.
-Total: 3.293000 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.773000 ms  DeleteObjects: 0.138500 ms)
+Unloading 29 unused Assets / (113.6 KB). Loaded Objects now: 3929.
+Memory consumption went from 120.4 MB to 120.3 MB.
+Total: 3.283100 ms (FindLiveObjects: 0.298300 ms CreateObjectMapping: 0.093500 ms MarkObjects: 2.758700 ms  DeleteObjects: 0.131200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,100 +169,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 9477.896173 seconds.
-  path: Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab
-  artifactKey: Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab using Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd0917016d955a993bcee0cfb9e093a') in 0.157620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.028737 seconds.
-  path: Assets/Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ccccfa1173c66d15b616e5f9d4300') in 0.025052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 87.327458 seconds.
-  path: Assets/Assets/Prefabs/Enemies/Enemy02 -p01 Variant.prefab
-  artifactKey: Guid(ab76c94daf74bb24aacc88497f63a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/Enemy02 -p01 Variant.prefab using Guid(ab76c94daf74bb24aacc88497f63a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c6fcec0fe8da33bcab88b2bd9269b') in 0.041498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Assets/Prefabs/Enemies/Enemy03 Variant.prefab
-  artifactKey: Guid(11cb2a23b3c12be44b73f72b9def30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/Enemy03 Variant.prefab using Guid(11cb2a23b3c12be44b73f72b9def30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a74ce52d08b57be002042c1057a703b') in 0.028162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab
-  artifactKey: Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab using Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaaefefdb5505ab58ae4c4dba37ae25') in 0.030201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Assets/Prefabs/Enemies/Shooter Enemy.prefab
-  artifactKey: Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/Shooter Enemy.prefab using Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4769ee14feac7162bfed7b91f0983dd4') in 0.021040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Assets/Prefabs/Enemies/EnemyArea (1).prefab
-  artifactKey: Guid(239b05293f7ec7b45b9ce9499e51a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/EnemyArea (1).prefab using Guid(239b05293f7ec7b45b9ce9499e51a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970bce43d6b3cc3defe6cb7527efac93') in 0.018773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Assets/Prefabs/Enemies/SEonP01.prefab
-  artifactKey: Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Prefabs/Enemies/SEonP01.prefab using Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74397f3bb2b69d4b6989a678a5e49651') in 0.023593 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007058 seconds.
+Registered in 0.004898 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
+- Completed reload, in  1.038 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1104ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (256ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (389ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3447 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (80.1 KB). Loaded Objects now: 3942.
-Memory consumption went from 123.6 MB to 123.6 MB.
-Total: 3.709600 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.142700 ms MarkObjects: 3.082100 ms  DeleteObjects: 0.137100 ms)
+Unloading 22 unused Assets / (80.1 KB). Loaded Objects now: 3932.
+Memory consumption went from 119.1 MB to 119.1 MB.
+Total: 4.200900 ms (FindLiveObjects: 0.494000 ms CreateObjectMapping: 0.136200 ms MarkObjects: 3.397000 ms  DeleteObjects: 0.172300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -275,6 +227,192 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26245.475042 seconds.
+  path: Assets/Assets/Prefabs/Variety/GameObject (1).prefab
+  artifactKey: Guid(fa05a971831b5d443b70f722775de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Variety/GameObject (1).prefab using Guid(fa05a971831b5d443b70f722775de8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343acd850d86fb92246a1a1e766e86c1') in 0.142096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 288.558006 seconds.
+  path: Assets/Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(0c2d1d09dc8369a49bd5811f0114948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Bullet.prefab using Guid(0c2d1d09dc8369a49bd5811f0114948a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
+The AnimationClip 'Rocket' used by the Animation component 'Bullet(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Rocket' used by the Animation component 'Bullet(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+ -> (artifact id: 'f54f6c3dcfb079155e456ec044e87769') in 0.047651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.236375 seconds.
+  path: Assets/Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab
+  artifactKey: Guid(04ad80b465b03864db8f8cc44e4e7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab using Guid(04ad80b465b03864db8f8cc44e4e7dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+ -> (artifact id: '095b5c571e2fdd42637e7c3c108e7b00') in 0.021434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005608 seconds.
+  path: Assets/Assets/Prefabs/Enemies/Enemy03 Variant.prefab
+  artifactKey: Guid(11cb2a23b3c12be44b73f72b9def30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/Enemy03 Variant.prefab using Guid(11cb2a23b3c12be44b73f72b9def30e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'BigBullet' must be marked as Legacy.
+ -> (artifact id: '12d7fe02f10be59859b2245df43b81e0') in 0.026258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab
+  artifactKey: Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/EnemyArea (3).prefab using Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '53ee21dcd397e8195445a15355aa1c14') in 0.025623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/Prefabs/Enemies/Shooter Enemy.prefab
+  artifactKey: Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/Shooter Enemy.prefab using Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: 'a1cadd7223ff54d335d034e175925281') in 0.026053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/Prefabs/Enemies/Enemy03.prefab
+  artifactKey: Guid(0f3dba08662aca74c905b691e80a7c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/Enemy03.prefab using Guid(0f3dba08662aca74c905b691e80a7c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'BigBullet' must be marked as Legacy.
+ -> (artifact id: '5abc92007041318bb36cd4c21dcaf1fa') in 0.018632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/Prefabs/Enemies/Enemy01.prefab
+  artifactKey: Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/Enemy01.prefab using Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+ -> (artifact id: 'edcc4d4edf97848b3d36288389b397f5') in 0.013385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/Prefabs/Enemies/EonP03.prefab
+  artifactKey: Guid(61370de0d51d80b41a5c9ee1fb5a8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/EonP03.prefab using Guid(61370de0d51d80b41a5c9ee1fb5a8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Animation.cpp line 2050]
+
+The AnimationClip 'Player_Jump' used by the Animation component 'Enemy01' must be marked as Legacy.
+ -> (artifact id: 'c3cdaa3d15a49a37d25012159427d974') in 0.023778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/Prefabs/Enemies/SEonP01.prefab
+  artifactKey: Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/SEonP01.prefab using Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '8a96042ad3b6a9e42953eff163bcc4f5') in 0.026542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/Prefabs/Enemies/SEonP01_base.prefab
+  artifactKey: Guid(9935f03c87c2d2443b9ede7c74c046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Prefabs/Enemies/SEonP01_base.prefab using Guid(9935f03c87c2d2443b9ede7c74c046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '07ecf36cd76617c321f1cc6e3efff68f') in 0.017376 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
