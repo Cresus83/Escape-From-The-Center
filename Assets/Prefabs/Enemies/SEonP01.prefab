@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: height
       value: 4.23
       objectReference: {fileID: 0}
+    - target: {fileID: 3678970406992944594, guid: 9935f03c87c2d2443b9ede7c74c046a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4146012750231448226, guid: 9935f03c87c2d2443b9ede7c74c046a9, type: 3}
       propertyPath: m_RootOrder
       value: 0

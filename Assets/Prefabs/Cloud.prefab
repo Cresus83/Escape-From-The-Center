@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2086755315158463902}
   - component: {fileID: 8178064495171619150}
   - component: {fileID: 8183901628195329474}
-  - component: {fileID: 5258827135328680008}
+  - component: {fileID: 9170666137347327011}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7451061559460053519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.51, y: -0.61, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100,16 +100,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanceY: 4
   smoothingY: 1
---- !u!65 &5258827135328680008
-BoxCollider:
+--- !u!61 &9170666137347327011
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7451061559460053519}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.06}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.50857145, y: 0.5714286}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.716, y: 0.8207483, z: 0.2}
-  m_Center: {x: 0, y: -0.034580454, z: 0}
+  m_Size: {x: 0.54, y: 0.48}
+  m_EdgeRadius: 0

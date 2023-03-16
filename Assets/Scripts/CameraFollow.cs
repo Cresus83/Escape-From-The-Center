@@ -64,9 +64,11 @@ public class CameraFollow : MonoBehaviour
             if(time >= delay){ 
                 // Changes to game over scene
                 time = 0f;
+                /*
                 coinCounter.SaveCoinAmount(); 
                 Score.SaveScore();               
                 sceneLoader.LoadGameOverScene();
+                */
             }
         }
     }

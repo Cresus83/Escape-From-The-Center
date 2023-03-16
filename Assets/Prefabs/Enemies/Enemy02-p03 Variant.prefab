@@ -181,11 +181,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438651, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09
+      value: 0.83
       objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438651, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8.42
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438651, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_LocalRotation.w
@@ -259,6 +259,10 @@ PrefabInstance:
       propertyPath: childsToEnable.Array.data[0]
       value: 
       objectReference: {fileID: 3178787522533298911}
+    - target: {fileID: 1370870091199207377, guid: 051dffb4da930b0458579fe143165458, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6610740161942635172, guid: 051dffb4da930b0458579fe143165458, type: 3}
       propertyPath: canSpawnOnEnable
       value: 0

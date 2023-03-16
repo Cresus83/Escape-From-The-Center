@@ -5,8 +5,9 @@ public class Coin : Collectable
 {
     public bool isGray = false;
     public Magnet magnet;
-
+/*
     public override event OnPickUpDelegate PickUpEvent;
+    */
 
     // Player pick up function
     public override bool PickUp(){
