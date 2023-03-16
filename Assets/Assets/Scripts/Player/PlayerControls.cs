@@ -44,12 +44,37 @@ public class PlayerControls : MonoBehaviour
     void Update(){
         inputAx = Input.acceleration.x; // Gets gyro input
     }
+    
+    private float fallTime = 0f;
 
     void FixedUpdate(){   
         
-        if (hasStarted){      
-            MovePlayer(); 
+         if (hasStarted)
+        {
+            MovePlayer();
+
+            // Ajouter cette vérification pour la chute du joueur
+            if (playerRB.velocity.y < 0)
+            {
+                fallTime += Time.fixedDeltaTime;
+                if (fallTime > 3f)
+                {
+                    // Game Over
+                    Time.timeScale = 0;
+                    Debug.Log("Game Over");
+
+                    canMoveLeft = false;
+                    canMoveRight = false;
+                    return;
+                }
+            }
+            else
+            {
+                fallTime = 0f;
+            }
         }
+        animator.SetFloat("Speed", playerRB.velocity.y);
+
 
         // Setting Speed var for animator to set player jump and fall anmation
         animator.SetFloat("Speed",playerRB.velocity.y);  
@@ -189,5 +214,6 @@ public class PlayerControls : MonoBehaviour
         isDashing = false;
     }
     
+
 
 }

@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - platform
+  - platforms
+  - enemy
+  - wall
+  - wallBottom
+  - thorn
+  - collectable
+  - button
+  - dashPrediction
+  - player
+  - feet
+  - buttonslot
   layers:
   - Default
   - TransparentFX
