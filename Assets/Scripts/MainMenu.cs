@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
 
     public void CreditsButton()
     {
-
+        SceneManager.LoadScene(3);
     }
 
 }

@@ -410,6 +410,7 @@
 "Assets/Scripts/UI/PauseMenu.cs"
 "Assets/Scripts/UI/Score.cs"
 "Assets/Scripts/Wait.cs"
+"Assets/Scripts/Wait_Credits.cs"
 "Assets/Scripts/Wall/Wall.cs"
 "Assets/Scripts/Wall/WallBottom.cs"
 -langversion:9.0
