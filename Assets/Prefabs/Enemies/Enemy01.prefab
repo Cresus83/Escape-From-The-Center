@@ -14,8 +14,7 @@ GameObject:
   - component: {fileID: 8687107745314304855}
   - component: {fileID: -3883113268167644059}
   - component: {fileID: 636280662232568189}
-  - component: {fileID: 7886057520657962782}
-  - component: {fileID: 4604077086706671431}
+  - component: {fileID: 4245379416624250864}
   m_Layer: 0
   m_Name: Enemy01
   m_TagString: Untagged
@@ -31,15 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093520430442672000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  m_LocalPosition: {x: -0.96, y: 0, z: 4}
-=======
-  m_LocalPosition: {x: 1.89, y: 97.24757, z: 0}
->>>>>>> Stashed changes
-=======
-  m_LocalPosition: {x: -1.89, y: 21.964186, z: 0}
->>>>>>> Stashed changes
+  m_LocalPosition: {x: -0.52, y: 0.41, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94,7 +85,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 10, y: 10}
+  m_Size: {x: 0.50857145, y: 0.5714286}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4925,7 +4916,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!61 &7886057520657962782
+--- !u!61 &4245379416624250864
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4943,7 +4934,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.50857145, y: 0.5714286}
-    newSize: {x: 10, y: 10}
+    newSize: {x: 0.50857145, y: 0.5714286}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -4951,22 +4942,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.50857145, y: 0.5714286}
   m_EdgeRadius: 0
---- !u!111 &4604077086706671431
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093520430442672000}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 55700f4d6d4b8e14c8fce2164505e05b, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 55700f4d6d4b8e14c8fce2164505e05b, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1 &2093520430686081099
 GameObject:
   m_ObjectHideFlags: 0

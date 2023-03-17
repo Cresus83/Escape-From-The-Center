@@ -6384,6 +6384,13 @@ PrefabInstance:
     - target: {fileID: 4237576365222486388, guid: b51867e927044174bb908ad48df1efd4, type: 3}
       propertyPath: m_text
       value: /30
+<<<<<<< Updated upstream
+=======
+      objectReference: {fileID: 0}
+    - target: {fileID: 4237576365222486388, guid: b51867e927044174bb908ad48df1efd4, type: 3}
+      propertyPath: m_fontSize
+      value: 50
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4237576365222486388, guid: b51867e927044174bb908ad48df1efd4, type: 3}
       propertyPath: m_fontSize
@@ -6411,7 +6418,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5424947082882514818, guid: b51867e927044174bb908ad48df1efd4, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< Updated upstream
       value: -25
+=======
+      value: -32.1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 7036620842062916273, guid: b51867e927044174bb908ad48df1efd4, type: 3}
       propertyPath: m_fontSize

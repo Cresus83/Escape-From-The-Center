@@ -3,7 +3,11 @@ guid: 60419da2d5c677940aa1bdf5880f96b7
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - goldSpawnPoint: {instanceID: 0}
+  - enemySpawnPoint: {instanceID: 0}
+  - platformSpawnPoint: {instanceID: 0}
+  - enemy: {fileID: 2093520430442672000, guid: 44d13d38c8412ec47970c8a8f9e4d026, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

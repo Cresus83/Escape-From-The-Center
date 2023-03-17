@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4146012750231448226}
   - component: {fileID: 1491266645653979784}
-  - component: {fileID: 6048819929017474993}
   m_Layer: 0
   m_Name: SEonP01_base
   m_TagString: enemy
@@ -50,19 +49,6 @@ MonoBehaviour:
   distance: 0
   UseManuelHeightInput: 1
   height: 1.88
---- !u!65 &6048819929017474993
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1448770708880629395}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4909560300811635739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -206,6 +192,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6892440604362506151}
     m_Modifications:
+    - target: {fileID: 746912035335023727, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438650, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_Name
       value: Shooter Enemy
@@ -220,7 +210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438651, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.96
+      value: 1.04
       objectReference: {fileID: 0}
     - target: {fileID: 7314799942341438651, guid: f989daace86dbe54f90e87df4f9e5b57, type: 3}
       propertyPath: m_LocalPosition.z

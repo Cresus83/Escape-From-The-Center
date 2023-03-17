@@ -10,8 +10,8 @@ public class CoinCounter : MonoBehaviour
             _coin = value;
             coinText.text = _coin.ToString(); //Updates coin amount UI whenever player picks up a coin
             
-            // Check if the player collected 40 coins and display "Game Succès"
-            if (_coin >= 40) {
+            // Check if the player collected 30 coins and display "Game Succès"
+            if (_coin >= 30) {
                 Debug.Log("Game Succès!");
                 Time.timeScale = 0; // Pause the game
                 _coin = 00; // Reset the coin count

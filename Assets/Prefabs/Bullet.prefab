@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 2327104152829953087}
   - component: {fileID: 5027254438393549296}
   - component: {fileID: 2453732716595019831}
-  - component: {fileID: -7266770841509810109}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4548789151998286007}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.1424267, y: -1.9331819, z: 0}
   m_LocalScale: {x: 0.669636, y: 0.610896, z: 1.1748}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,7 +81,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.153, y: 0.104}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -106,7 +105,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.153, y: 0.104}
-    newSize: {x: 0.153, y: 0.104}
+    newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -148,18 +147,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freezer: {fileID: 11400000, guid: 4570180c24e2b624191df57323aba2b4, type: 2}
---- !u!111 &-7266770841509810109
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4548789151998286007}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 94963d4407772f843b1094a75fecd26b, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
