@@ -843,7 +843,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -466.32, y: -162}
+  m_AnchoredPosition: {x: -454.04004, y: -162}
   m_SizeDelta: {x: 378.0733, y: 71.413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230850138
@@ -978,7 +978,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -432, y: 382}
+  m_AnchoredPosition: {x: -454.04, y: 357}
   m_SizeDelta: {x: 309.4317, y: 71.577}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &327625314
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 4
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.17764282, y: 0, z: -0.1796875, w: -0.04360199}
+  m_margin: {x: 0.17764282, y: 0, z: -0.1796875, w: 1.280201}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1962,7 +1962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390.9, y: 158}
+  m_AnchoredPosition: {x: -454.04004, y: 158}
   m_SizeDelta: {x: 227.2253, y: 247.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732148109
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8862745}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.92941177}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5073,7 +5073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409.96, y: -346.25}
+  m_AnchoredPosition: {x: -454.04, y: -346.25}
   m_SizeDelta: {x: 265.3478, y: 196.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2027648111
@@ -5096,7 +5096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8ca4769ef9869144b87f3dd32f549d15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a823e8eb7563c5e43a19b726b46ddc6a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class PauseMenu : MonoBehaviour
     void Start(){
         UpdateDashAssistOpt();
         SaveDashAssistOpt();
-        UpdateDashAssistText(isDashAssistOn);        
+        UpdateDashAssistText(isDashAssistOn);
     }
 
     // Update is called once per frame
@@ -36,6 +37,14 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+    }
+
+    public void Restart(){
+        SceneManager.LoadScene(2);
+    }
+
+    public void Quit(){
+        SceneManager.LoadScene(1);
     }
 
     public void Pause(){
