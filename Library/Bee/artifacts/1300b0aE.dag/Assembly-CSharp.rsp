@@ -348,7 +348,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scenes/Wait.cs"
 "Assets/Scripts/ButtonSlots.cs"
 "Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/Cloud Generating/Cloud.cs"
@@ -410,6 +409,7 @@
 "Assets/Scripts/UI/GameplayButtons.cs"
 "Assets/Scripts/UI/PauseMenu.cs"
 "Assets/Scripts/UI/Score.cs"
+"Assets/Scripts/Wait.cs"
 "Assets/Scripts/Wall/Wall.cs"
 "Assets/Scripts/Wall/WallBottom.cs"
 -langversion:9.0

@@ -20,6 +20,7 @@ public class MainMenu : MonoBehaviour
     {
         settingsWindow.SetActive(false);
     }
+
     public void CreditsButton()
     {
 

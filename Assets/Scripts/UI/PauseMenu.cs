@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool isPaused = false;
-    public static int isDashAssistOn = 1; 
+    public static int isDashAssistOn = 1;
     public GameObject pauseMenuUI;
     public TextMeshProUGUI dashAssistText;
 
@@ -16,15 +16,6 @@ public class PauseMenu : MonoBehaviour
         UpdateDashAssistOpt();
         SaveDashAssistOpt();
         UpdateDashAssistText(isDashAssistOn);
-    }
-
-    // Update is called once per frame
-    void Update(){
-        if(Swipe.swipedUp){
-            if(!isPaused){
-                Pause();
-            }
-        }
     }
 
     void OnApplicationFocus(bool pauseStatus){
