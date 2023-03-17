@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Magnet
   m_EditorClassIdentifier: 
   type: 24
-  icon: {fileID: 21300000, guid: 64769849323736b44b74b7ee54f7d656, type: 3}
+  icon: {fileID: 21300000, guid: fd0c9dccb0c6ec7499b3ad4daa485bd3, type: 3}
   defDuration: 15
   getOnStart: 0
   hasThis: 0
-  isdurationFinished: 1
+  isdurationFinished: 0
   isUpgraded: 0
-  duration: -0.0020003598
+  duration: 9.197088

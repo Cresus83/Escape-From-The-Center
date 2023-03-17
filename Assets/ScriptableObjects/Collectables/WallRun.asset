@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: WallRun
   m_EditorClassIdentifier: 
   type: 24
-  icon: {fileID: 21300000, guid: d341ad72ad07a1e43b83726e8d90e742, type: 3}
+  icon: {fileID: 21300000, guid: ddfab22dc82ea4949be49b1208a95f9b, type: 3}
   defDuration: 5
   getOnStart: 0
-  hasThis: 0
-  isdurationFinished: 1
+  hasThis: 1
+  isdurationFinished: 0
   isUpgraded: 0
-  duration: -0.000014659949
+  duration: 2.5326478

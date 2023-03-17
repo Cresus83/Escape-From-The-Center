@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Replacer
   m_EditorClassIdentifier: 
   type: 25
-  icon: {fileID: 21300000, guid: 64ae7d4142d93c44b8181f58cef6d40c, type: 3}
+  icon: {fileID: 21300000, guid: a9f2649c64e411c4bb45f0d5610c187a, type: 3}
   defDuration: 0
   getOnStart: 0
   hasThis: 0

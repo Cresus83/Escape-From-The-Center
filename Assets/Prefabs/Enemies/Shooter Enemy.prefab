@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 7878454882394191471}
   - component: {fileID: 746912035335023727}
   - component: {fileID: 3315906403446730570}
-  - component: {fileID: -7524403095937580153}
+  - component: {fileID: 6170584770929083838}
   m_Layer: 0
   m_Name: Shooter Enemy
   m_TagString: Untagged
@@ -5037,7 +5037,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.82, y: 0.76}
   m_EdgeRadius: 0
---- !u!111 &-7524403095937580153
+--- !u!111 &6170584770929083838
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5046,8 +5046,9 @@ Animation:
   m_GameObject: {fileID: 7314799942341438650}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
+  m_Animation: {fileID: 7400000, guid: 55700f4d6d4b8e14c8fce2164505e05b, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 55700f4d6d4b8e14c8fce2164505e05b, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

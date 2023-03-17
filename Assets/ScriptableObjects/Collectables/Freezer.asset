@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Freezer
   m_EditorClassIdentifier: 
   type: 22
-  icon: {fileID: 21300000, guid: 04b8dd80a4e937a40b213e0b573155e5, type: 3}
+  icon: {fileID: 21300000, guid: 8cb2e0bb4220d7447a9f359733254541, type: 3}
   defDuration: 0
   getOnStart: 0
   hasThis: 0
