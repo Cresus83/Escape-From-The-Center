@@ -43,7 +43,6 @@ ScriptsOnlyBuild:
     - Replacer
     - RightSideWrapping
     - SceneLoader
-    - SettingsMenu
     - ShootingSystem
     - SpawnManager
     - Swipe
@@ -121,9 +120,6 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: SettingsButton
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: SetVolume
-  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: CreditsButton
   - assembly: Assembly-CSharp
@@ -138,6 +134,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Restart
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Pause
   sceneClasses:
     Assets/Scenes/GameScene.unity:
     - Class: 1
@@ -163,8 +162,6 @@ ScriptsOnlyBuild:
     - Class: 61
       Script: {instanceID: 0}
     - Class: 65
-      Script: {instanceID: 0}
-    - Class: 70
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -1313,12 +1310,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyArea
-  - hash:
-      serializedVersion: 2
-      Hash: d835e37be8caf473a0d64dc941f2a2a8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SettingsMenu
   - hash:
       serializedVersion: 2
       Hash: 89a44993c9b29de3b95b46594f142b42

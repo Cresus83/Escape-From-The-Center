@@ -15,7 +15,7 @@ C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 -logFile
 Logs/AssetImportWorker17.log
 -srvPort
-54433
+55822
 Successfully changed project path to: C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 C:/Users/annam/Documents/GitHub/Escape-From-The-Center
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/annam/Documents/GitHub/Escape-From-The-Center
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25812] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2218834922 [EditorId] 2218834922 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4072] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2689974796 [EditorId] 2689974796 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25812] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2218834922 [EditorId] 2218834922 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4072] Host "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2689974796 [EditorId] 2689974796 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9UH5ECRM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 88.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,95 +67,95 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005274 seconds.
+Registered in 0.004674 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.546 seconds
+- Completed reload, in  0.536 seconds
 Domain Reload Profiling:
-	ReloadAssembly (547ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (537ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (60ms)
+				InitializePlatformSupportModulesInManaged (61ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
+				RefreshPlugins (69ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004624 seconds.
+Registered in 0.004577 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.870 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (654ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (238ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (169ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (174ms)
 				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (113.7 KB). Loaded Objects now: 3619.
 Memory consumption went from 114.4 MB to 114.3 MB.
-Total: 2.682800 ms (FindLiveObjects: 0.245500 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.228700 ms  DeleteObjects: 0.112400 ms)
+Total: 2.820800 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.097600 ms MarkObjects: 2.357800 ms  DeleteObjects: 0.101400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,121 +170,128 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 30849.349581 seconds.
-  path: Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'e9b8e54760bc9e52d1169d9641a284e1') in 0.189880 seconds 
+  Time since last request: 86339.884159 seconds.
+  path: Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab
+  artifactKey: Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab using Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6739bb4c99a5ac8d4699a65db3612340') in 0.160738 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.263498 seconds.
-  path: Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'ebe48481bccd00a2d58754cafd22e907') in 0.025848 seconds 
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/Enemies/EnemyArea (1).prefab
+  artifactKey: Guid(239b05293f7ec7b45b9ce9499e51a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EnemyArea (1).prefab using Guid(239b05293f7ec7b45b9ce9499e51a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Bullet' used by the Animation component 'BigBullet' must be marked as Legacy.
+ -> (artifact id: '7c2346abf5ed2cc56d415cf918a9afd8') in 0.030479 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Enemies/SEonP03.prefab
-  artifactKey: Guid(b1d4143e231c07e44a738b07d427ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SEonP03.prefab using Guid(b1d4143e231c07e44a738b07d427ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: '08b0dfa8a21e9fcc25bb85aea68e3841') in 0.026490 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Enemies/EonP01.prefab
+  artifactKey: Guid(eda35f03e32d7e346b1f00ed9b0dffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EonP01.prefab using Guid(eda35f03e32d7e346b1f00ed9b0dffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac8e486f69b58220f6fe4a2ac2065b4') in 0.020571 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Prefabs/Enemies/SEonP01.prefab
-  artifactKey: Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SEonP01.prefab using Guid(5d9b09ebef694aa49b05d98c05ef8429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'daedcd49d29196211a7fd96e53352de6') in 0.021358 seconds 
+  Time since last request: 33.187313 seconds.
+  path: Assets/Prefabs/Enemies/Enemy01.prefab
+  artifactKey: Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy01.prefab using Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c71799f72009e294bcbfd7db9276c6') in 0.010525 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.741223 seconds.
-  path: Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'ca25db48fb72a5d132e19fef45133e7a') in 0.031714 seconds 
+  Time since last request: 0.012620 seconds.
+  path: Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab
+  artifactKey: Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab using Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7b87cb0107f5dfc3c8d9fa9d8f9e0b') in 0.024011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Enemies/SEonP03.prefab
-  artifactKey: Guid(b1d4143e231c07e44a738b07d427ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SEonP03.prefab using Guid(b1d4143e231c07e44a738b07d427ce9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'defb15dac492bb756e0f953c19ee05de') in 0.024826 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Enemies/EonP03.prefab
+  artifactKey: Guid(61370de0d51d80b41a5c9ee1fb5a8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EonP03.prefab using Guid(61370de0d51d80b41a5c9ee1fb5a8d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7298a14e865e67922b2108697ac585') in 0.026930 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.143627 seconds.
-  path: Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: '5c202cd0428a281bb5942dfa9290ecce') in 0.031709 seconds 
+  Time since last request: 5.418846 seconds.
+  path: Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab
+  artifactKey: Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab using Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65af628ebb8cec4ce95d540bc027eb8') in 0.034153 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Enemies/Shooter Enemy.prefab
-  artifactKey: Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Shooter Enemy.prefab using Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'b56a455943b4ceb6a9947595e22f0e39') in 0.026408 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Enemies/EnemyArea.prefab
+  artifactKey: Guid(ecf540a26cc5ea94ca467e72ea530934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EnemyArea.prefab using Guid(ecf540a26cc5ea94ca467e72ea530934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628ae845a2fc8db7b551a75e3a135eb6') in 0.021365 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.004254 seconds.
-  path: Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab
-  artifactKey: Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy02-p03 Variant.prefab using Guid(f6b353574703c1f41adcba5646049085) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'da6a54ffdd214b6810fe19e206bc2875') in 0.040783 seconds 
+  Time since last request: 27.709348 seconds.
+  path: Assets/Prefabs/Enemies/EnemyArea (3).prefab
+  artifactKey: Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EnemyArea (3).prefab using Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Bullet' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: 'f15378a9eed2ea4acbed2159b0858564') in 0.032978 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Enemies/SEonP01_base.prefab
-  artifactKey: Guid(9935f03c87c2d2443b9ede7c74c046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SEonP01_base.prefab using Guid(9935f03c87c2d2443b9ede7c74c046a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Rocket' used by the Animation component 'Bullet' must be marked as Legacy.
- -> (artifact id: 'eb94aa1cb9158c6050179add1421ef11') in 0.025679 seconds 
+  path: Assets/Prefabs/Enemies/Shooter Enemy.prefab
+  artifactKey: Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Shooter Enemy.prefab using Guid(f989daace86dbe54f90e87df4f9e5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Bullet' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '3e03f495b4ef4cb380433e03df6f5966') in 0.024260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.796341 seconds.
+  path: Assets/Prefabs/Enemies/EnemyArea (3).prefab
+  artifactKey: Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EnemyArea (3).prefab using Guid(32bb431fc79d518458f07944a7dd6e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Bullet' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '324e2ece78305775e17a17e22688233f') in 0.043764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.143533 seconds.
+  path: Assets/Prefabs/Enemies/Enemy02 -p01 Variant.prefab
+  artifactKey: Guid(33937609ac49ffc47b4fa35ddee30226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy02 -p01 Variant.prefab using Guid(33937609ac49ffc47b4fa35ddee30226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'Bullet' used by the Animation component 'Bullet' must be marked as Legacy.
+ -> (artifact id: '2f8197a9a1778b58f300c0b8b60793bf') in 0.027353 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004746 seconds.
+Registered in 0.004782 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  0.988 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1017ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (762ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (346ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (213ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (198ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (80.4 KB). Loaded Objects now: 3631.
-Memory consumption went from 116.4 MB to 116.3 MB.
-Total: 3.225400 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.602000 ms  DeleteObjects: 0.112100 ms)
+Unloading 19 unused Assets / (80.3 KB). Loaded Objects now: 3632.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 3.597700 ms (FindLiveObjects: 0.343100 ms CreateObjectMapping: 0.094000 ms MarkObjects: 3.007800 ms  DeleteObjects: 0.150900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -297,6 +304,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\annam\Documents\GitHub\Escape-From-The-Center\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1244ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3121 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (80.3 KB). Loaded Objects now: 3635.
+Memory consumption went from 116.5 MB to 116.4 MB.
+Total: 4.339300 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.173200 ms MarkObjects: 3.583000 ms  DeleteObjects: 0.173800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1660.768214 seconds.
+  path: Assets/Prefabs/Enemies/EnemyArea (2).prefab
+  artifactKey: Guid(afc96d0497b516541ab456e9bd348673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EnemyArea (2).prefab using Guid(afc96d0497b516541ab456e9bd348673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e800ed501c0a5cc64fee16415a14a73') in 0.161315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/Enemies/Enemy01.prefab
+  artifactKey: Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy01.prefab using Guid(44d13d38c8412ec47970c8a8f9e4d026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586091d89cb5904167bacad682e29808') in 0.019550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Enemies/EonP01.prefab
+  artifactKey: Guid(eda35f03e32d7e346b1f00ed9b0dffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/EonP01.prefab using Guid(eda35f03e32d7e346b1f00ed9b0dffd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6675ee7c224a721129263ef2b0918a') in 0.026887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab
+  artifactKey: Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/enemy01-p03 Variant.prefab using Guid(c90f4bb617b206b46b0693f8c4fb147b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23982f515770dc3cbf343d180859684') in 0.029465 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

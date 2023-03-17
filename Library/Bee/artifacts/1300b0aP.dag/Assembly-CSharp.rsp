@@ -354,7 +354,6 @@
 "Assets/Scripts/PowerUp.cs"
 "Assets/Scripts/RightSideWrapping.cs"
 "Assets/Scripts/SceneLoader.cs"
-"Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/Shop Item/ShopItem.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/Swipe.cs"
@@ -363,9 +362,9 @@
 "Assets/Scripts/UI/GameplayButtons.cs"
 "Assets/Scripts/UI/PauseMenu.cs"
 "Assets/Scripts/UI/Score.cs"
+"Assets/Scripts/Wait.cs"
 "Assets/Scripts/Wall/Wall.cs"
 "Assets/Scripts/Wall/WallBottom.cs"
-"Assets/Wait.cs"
 -langversion:9.0
 
 /deterministic
