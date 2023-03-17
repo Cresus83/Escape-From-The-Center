@@ -43,6 +43,7 @@ ScriptsOnlyBuild:
     - Replacer
     - RightSideWrapping
     - SceneLoader
+    - SettingsMenu
     - ShootingSystem
     - SpawnManager
     - Swipe
@@ -73,7 +74,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Slider
   serializedClasses:
     Assembly-CSharp:
@@ -119,6 +119,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: SettingsButton
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: SetVolume
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: CreditsButton
@@ -177,8 +180,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1568}
-    - Class: 114
-      Script: {instanceID: 1794}
     - Class: 114
       Script: {instanceID: 1814}
     - Class: 114
@@ -598,7 +599,7 @@ ScriptsOnlyBuild:
     className: DashPrediction
   - hash:
       serializedVersion: 2
-      Hash: 3439f1eb00215214d0f485afe6611bfa
+      Hash: c8c5e65e9fb858572516474d6e2102bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
@@ -1310,6 +1311,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyArea
+  - hash:
+      serializedVersion: 2
+      Hash: d835e37be8caf473a0d64dc941f2a2a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingsMenu
   - hash:
       serializedVersion: 2
       Hash: 89a44993c9b29de3b95b46594f142b42
